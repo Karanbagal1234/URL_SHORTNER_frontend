@@ -1,0 +1,58 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .glassmorphism-form {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  }
+  
+  .glassmorphism-panel {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  }
+  
+  .chart-container {
+    margin: 20px 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  main{
+    min-height: 100vh;
+    height: auto;
+  }
+
+
+  section{
+    background: url("../public/polygon-scatter-haikei.png");
+  }
+
+  *{
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+
+  #root > main{
+    display: grid;
+    place-items: center;
+  }
+  #root > main > div{
+    width: 100%;
+  }
+  /* #root >header {
+    background-color: rgb(117, 139, 253);
+
+  } */
+
