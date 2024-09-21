@@ -28,7 +28,7 @@ const Header = () => {
           {tokenExist("token") ? (
             <button
               onClick={handleLogout}
-              className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition duration-300"
+              className="bg-red-600 hover:bg-red-700 text-white font-semibold sm:py-1 sm:px-2 py-2 px-4 rounded transition duration-300"
               style={{ backgroundColor: hexCode.errorColor, borderColor: hexCode.borderHighlight }}
             >
               Logout
@@ -37,7 +37,7 @@ const Header = () => {
             <>
               <Link
                 to="/login"
-                className="text-white font-semibold py-2 px-4 rounded transition duration-300"
+                className="text-white font-semibold sm:py-1 sm:px-2 py-2 px-4 rounded transition duration-300"
                 style={{
                   backgroundColor: hexCode.accentColor,
                   borderColor: hexCode.borderHighlight,
@@ -48,7 +48,7 @@ const Header = () => {
               </Link>
               <Link
                 to="/signup"
-                className="text-white font-semibold py-2 px-4 rounded transition duration-300"
+                className="text-white font-semibold sm:py-1 sm:px-2 py-2 px-4 rounded transition duration-300"
                 style={{
                   backgroundColor: hexCode.accentColor,
                   borderColor: hexCode.borderHighlight,
