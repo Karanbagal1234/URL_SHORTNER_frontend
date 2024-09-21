@@ -18,6 +18,7 @@ const HeroSection = () => {
   const navigate = useNavigate();
 
   const isUserLoggedIn = tokenExist("token");
+console.log(import.meta.env.VITE_REDIR);
 
   useEffect(() => {
     const fetchData = async () => {
